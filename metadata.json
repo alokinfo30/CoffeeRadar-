@@ -1,0 +1,7 @@
+{
+  "name": "Coffee Shop Placement Optimizer",
+  "description": "A data-driven expansion agent for a coffee shop going national — using Gemini, BigQuery MCP Server, public bike-route datasets, enterprise defense-in-depth security, and real-time siting analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

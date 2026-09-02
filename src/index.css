@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-grid-cyber {
+    background-image: radial-gradient(#38BDF8 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+  .bg-radial-glow {
+    background: radial-gradient(circle at 50% 0%, rgba(56, 189, 248, 0.12) 0%, rgba(15, 23, 42, 0) 70%);
+  }
+}
+
+/* Custom scrollbars matching Immersive UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
